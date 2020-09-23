@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Todo List</h1>
+        <p></p>
+        <form class="search">
+          <input
+            class="search-box"
+            type="text"
+            name="search"
+            placeholder="search todos"
+          />
+        </form>
+      </header>
+      <br />
+      <br />
+      <ul class="todos">
+        <li class="list-item">
+          <span>play mariokart</span>
+          <i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+        <li class="list-item">
+          <span>defeat ganon in zelda</span>
+          <i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+        <li class="list-item">
+          <span>make a vegie pie</span>
+          <i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+      </ul>
+      <form class="add">
+        <label>Add a new todo...</label>
+
+        <input class="search-box" type="text" name="add" />
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
